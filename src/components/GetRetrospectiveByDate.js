@@ -18,7 +18,7 @@ function GetRetrospectiveByDate() {
   }
   return (
     <>
-      <form onSubmit={submitHandler}>
+      <form data-testid="retro-form" onSubmit={submitHandler}>
         <div>
           <label htmlFor="date">Date</label>
           <input type="date" id="date" max={maxdate} />

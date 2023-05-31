@@ -4,7 +4,7 @@ import appRoute from "./approute/Route";
 
 function App() {
   return (
-    <div>
+    <div data-testid="routes-div">
       <RouterProvider router={appRoute} />
     </div>
   );
